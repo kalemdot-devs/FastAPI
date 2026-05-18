@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+venv/
+env/
+.ipynb_checkpoints/
+__pypackages__/
+pip-log.txt
