@@ -1,0 +1,234 @@
+{
+    "@type": [
+        "RealEstateListing",
+        "Product"
+    ],
+    "datePosted": "2026-03-26T00:00:00.000",
+    "lastReviewed": "2026-04-23T20:42:05.110",
+    "image": "https://images.homes.com/listings/117/3741672384-109716712/2917-dellinger-dr-charlotte-nc-primaryphoto.jpg",
+    "offers": {
+        "@type": "Offer",
+        "price": 319000,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.homes.com/property/2917-dellinger-dr-charlotte-nc/ktw6ef6tdrs6f/",
+        "seller": {
+            "@type": "Organization",
+            "name": "Moss Realty"
+        },
+        "offeredBy": [
+            {
+                "@type": [
+                    "Person",
+                    "RealEstateAgent"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Charlotte",
+                    "addressRegion": "NC",
+                    "addressCountry": "US"
+                },
+                "image": "https://imagescdn.homes.com/i2/atCJViybd6kO7F98plYP-pHUBKA7TApNLgq28J2MQmg/115/greg-holland.jpg?t=p&p=1",
+                "url": "https://www.homes.com/real-estate-agents/greg-holland/dmmzzhk/",
+                "telephone": "(704) 616-4880",
+                "email": "greg@mossrealty.com",
+                "jobTitle": "Real Estate Agent",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "Connect with Listing Agent",
+                    "email": "greg@mossrealty.com",
+                    "telephone": "(704) 616-4880"
+                },
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Moss Realty"
+                },
+                "@id": "https://www.homes.com/real-estate-agents/greg-holland/dmmzzhk/#person",
+                "name": "Greg Holland"
+            }
+        ]
+    },
+    "url": "https://www.homes.com/property/2917-dellinger-dr-charlotte-nc/ktw6ef6tdrs6f/",
+    "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://images.homes.com/listings/117/3741672384-109716712/2917-dellinger-dr-charlotte-nc-primaryphoto.jpg",
+        "width": 1200,
+        "height": 800
+    },
+    "mainEntity": {
+        "@type": "SingleFamilyResidence",
+        "numberOfBedrooms": 3,
+        "numberOfBathroomsTotal": 2,
+        "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 1274,
+            "unitCode": "FTK"
+        },
+        "yearBuilt": 1988,
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2917 Dellinger Dr",
+            "addressLocality": "Charlotte",
+            "addressRegion": "NC",
+            "postalCode": "28269",
+            "addressCountry": "US"
+        },
+        "image": "https://images.homes.com/listings/117/3741672384-109716712/2917-dellinger-dr-charlotte-nc-primaryphoto.jpg",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 35.29855,
+            "longitude": -80.8434
+        },
+        "@id": "https://www.homes.com/property/2917-dellinger-dr-charlotte-nc/ktw6ef6tdrs6f/#singlefamilyresidence",
+        "name": "2917 Dellinger Dr, Charlotte, NC 28269"
+    },
+    "isPartOf": [
+        {
+            "@type": "Website",
+            "url": "https://www.homes.com/",
+            "publisher": {
+                "@type": "Organization",
+                "url": "https://www.homes.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.homes.com/assets/images/homes-logo.webp"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "1201 Wilson Blvd",
+                    "addressLocality": "Arlington",
+                    "addressRegion": "VA",
+                    "postalCode": "22209",
+                    "addressCountry": "US"
+                },
+                "sameAs": [
+                    "https://x.com/HomesDotCom",
+                    "https://www.linkedin.com/company/homes-com/",
+                    "https://www.facebook.com/homesdotcom/",
+                    "https://www.instagram.com/homesdotcom/",
+                    "https://en.wikipedia.org/wiki/Homes.com",
+                    "https://www.crunchbase.com/organization/homes-com",
+                    "https://www.tiktok.com/@homes.dot.com",
+                    "https://www.pinterest.com/homesdotcom/",
+                    "https://www.youtube.com/@Homescom-uh3bd"
+                ],
+                "parentOrganization": {
+                    "@type": "Corporation",
+                    "url": "https://www.costar.com/",
+                    "tickerSymbol": "CSGP",
+                    "legalName": "CoStar Realty Information Inc.",
+                    "sameAs": [
+                        "https://www.wikidata.org/wiki/Q16988748",
+                        "https://en.wikipedia.org/wiki/CoStar_Group",
+                        "https://www.linkedin.com/company/costar-group/",
+                        "https://www.facebook.com/CoStarGroup/",
+                        "https://x.com/TheCoStarGroup"
+                    ],
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "1201 Wilson Blvd",
+                        "addressLocality": "Arlington",
+                        "addressRegion": "VA",
+                        "postalCode": "22209",
+                        "addressCountry": "US"
+                    },
+                    "@id": "https://www.costar.com/#corporation",
+                    "name": "CoStar Group"
+                },
+                "legalName": "Homes.com",
+                "slogan": "Your Listing, Your Lead.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Homes.com"
+                },
+                "areaServed": "https://www.wikidata.org/wiki/Q30",
+                "@id": "https://www.homes.com/#organization",
+                "name": "Homes.com",
+                "description": "Homes.com is where your home search begins. Search homes for sale, rental properties by city or ZIP, and find out information on recent home sales."
+            },
+            "@id": "https://www.homes.com/#website",
+            "name": "Homes.com"
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.homes.com/north-carolina/",
+            "@id": "https://www.homes.com/north-carolina/#collectionpage",
+            "name": "Homes for Sale in North Carolina"
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.homes.com/mecklenburg-county-nc/",
+            "@id": "https://www.homes.com/mecklenburg-county-nc/#collectionpage",
+            "name": "Homes for Sale in Mecklenburg County"
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.homes.com/charlotte-nc/",
+            "@id": "https://www.homes.com/charlotte-nc/#collectionpage",
+            "name": "Homes for Sale in Charlotte"
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.homes.com/charlotte-nc/28269/",
+            "@id": "https://www.homes.com/charlotte-nc/28269/#collectionpage",
+            "name": "Homes for Sale in 28269"
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.homes.com/charlotte-nc/hamilton-circle-neighborhood/",
+            "@id": "https://www.homes.com/charlotte-nc/hamilton-circle-neighborhood/#collectionpage",
+            "name": "Homes for Sale in Hamilton Circle"
+        }
+    ],
+    "mentions": {
+        "@type": "Article",
+        "image": "https://imagescdn.homes.com/i2/FWwN9SdILNTgr6mZ3qXy-l50sU92_Wp2TmzZ4Iw6tHw/110/hamilton-circle-charlotte-nc-primaryphoto.jpg?p=1",
+        "url": "https://www.homes.com/local-guide/charlotte-nc/hamilton-circle-neighborhood/",
+        "about": {
+            "@type": "AdministrativeArea",
+            "url": "https://www.homes.com/local-guide/charlotte-nc/hamilton-circle-neighborhood/",
+            "containedInPlace": [
+                null
+            ],
+            "@id": "https://www.homes.com/local-guide/charlotte-nc/hamilton-circle-neighborhood/#place",
+            "name": "Hamilton Circle"
+        },
+        "@id": "https://www.homes.com/local-guide/charlotte-nc/hamilton-circle-neighborhood/#article",
+        "name": "Hamilton Circle",
+        "description": "Seven miles north of Uptown, Hamilton Circle sits between two major thoroughfares along Interstate 77. Despite all the car traffic, the area is comfortably residential — and its convenient routes into Uptown have made it part of a rapidly developing area. “It’s fairly close to Uptown but still quiet. The area around Hamilton Circle is very historic,” says Kenyon Harris, Realtor with Keller Williams South Park. Harris describes the area as a relaxed reprieve from all the hustle and bustle of Charlotte’s urban Center City. “There are some locally owned restaurants, though I’d say most people leave the area for entertainment. It’s close to everything. People hang out in South Bend, which is probably 10 or 15 minutes away. Northlake Mall isn’t too far, either. They’re also extending the light rail up Beatties Ford Road, which will go straight to Uptown.” With the city investing heavily in the infrastructure along Beatties Ford Road, Hamilton Circle is in a prime position to grow. Midcentury homes stretch out on half-acre lots beneath lofty oaks, while houses in newer subdivisions line up in tidy rows behind neatly trimmed lawns. The diversity of housing stock in Hamilton Circle makes"
+    },
+    "potentialAction": {
+        "@type": "BuyAction"
+    },
+    "contentLocation": {
+        "@type": "City",
+        "containedInPlace": [
+            {
+                "@type": "State",
+                "containedInPlace": [
+                    {
+                        "@type": "Country",
+                        "sameAs": [
+                            "https://en.wikipedia.org/wiki/United_States",
+                            "https://www.wikidata.org/wiki/Q30"
+                        ],
+                        "name": "United States"
+                    }
+                ],
+                "sameAs": [
+                    "https://en.wikipedia.org/wiki/North_Carolina",
+                    "https://www.wikidata.org/wiki/Q1454"
+                ],
+                "name": "North Carolina"
+            }
+        ],
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+            "https://www.wikidata.org/wiki/Q16565"
+        ],
+        "name": "Charlotte"
+    },
+    "@id": "https://www.homes.com/property/2917-dellinger-dr-charlotte-nc/ktw6ef6tdrs6f/#realestatelisting",
+    "name": "2917 Dellinger Dr, Charlotte, NC 28269",
+    "description": "Welcome to 2917 Dellinger Dr, this is a great 1 level home offering a split bedroom floor plan. The kitchen has updated appliances, great cabinet, and counter space. The primary suite has a private bath that was updated in approx 2023, and also offers great closet space. Other updates include all new interior doors in 2025 as well as new carpet in bedrooms in 2025. All windows were replaced in 2021. Outside, you will find a nice level lot, a patio, and a 6' privacy fence in the backyard. The home is conveniently located approx 15 minutes to uptown and also has easy access to a CATS stop just outside the neighborhood. Listing Agent related to Seller. Professional photos coming soon."
+}
