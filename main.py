@@ -10,3 +10,8 @@ async def read_root():
 async def read_items(item_id: int, q: str = None):
     return {"item_id": item_id, "q": q}
 
+
+# Dynamic Route
+@app.get("/users/{user_id}")
+async def get_user(user_id:int):
+    return {"user_id": user_id}
