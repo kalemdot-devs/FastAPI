@@ -1,8 +1,4 @@
 {
-    "@type": [
-        "RealEstateListing",
-        "Product"
-    ],
     "datePosted": "2026-03-26T00:00:00.000",
     "lastReviewed": "2026-04-23T20:42:05.110",
     "image": "https://images.homes.com/listings/117/3741672384-109716712/2917-dellinger-dr-charlotte-nc-primaryphoto.jpg",
@@ -12,16 +8,17 @@
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "url": "https://www.homes.com/property/2917-dellinger-dr-charlotte-nc/ktw6ef6tdrs6f/",
-        "seller": {
-            "@type": "Organization",
-            "name": "Moss Realty"
-        },
+        "name": "Moss Realty",
         "offeredBy": [
             {
-                "@type": [
-                    "Person",
-                    "RealEstateAgent"
-                ],
+                "agentInfo": {
+                    "name": "Greg Holland",
+                    "telephone": "(704) 616-4880",
+                    "email": "greg@mossrealty.com",
+                    "jobTitle": "Real Estate Agent",
+                    "profileUrl": "https://www.homes.com/real-estate-agents/greg-holland/dmmzzhk/"
+                },
+
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Charlotte",
@@ -29,19 +26,12 @@
                     "addressCountry": "US"
                 },
                 "image": "https://imagescdn.homes.com/i2/atCJViybd6kO7F98plYP-pHUBKA7TApNLgq28J2MQmg/115/greg-holland.jpg?t=p&p=1",
-                "url": "https://www.homes.com/real-estate-agents/greg-holland/dmmzzhk/",
-                "telephone": "(704) 616-4880",
-                "email": "greg@mossrealty.com",
-                "jobTitle": "Real Estate Agent",
+                
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "contactType": "Connect with Listing Agent",
                     "email": "greg@mossrealty.com",
                     "telephone": "(704) 616-4880"
-                },
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Moss Realty"
                 },
                 "@id": "https://www.homes.com/real-estate-agents/greg-holland/dmmzzhk/#person",
                 "name": "Greg Holland"
