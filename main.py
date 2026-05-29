@@ -2,6 +2,7 @@ import json
 from fastapi import FastAPI
 from fastapi import File, UploadFile
 from fastapi import Request
+from models import RentalListing
 from property_listings import *
 
 app = FastAPI()
@@ -32,21 +33,18 @@ async def get_products(limit:int = 10):
 # get property listings 
 @app.get("/listings")
 async def get_property_listings():
-    listings = get_listings()
-    return listings[0]
+    return listings
 
 # path parameters/params
 @app.get("/listings/{offers}")
 async def get_property_offers(offers: str):
-    listings = get_listings()
-    property_offers = listings[0][offers][0]
+    property_offers = listings[offers]
     return property_offers
 
 # Query Params
 @app.get('/listings/agent_info/{info}')
 async def get_listing_agent_info(info: str):
-    listings = get_listings()
-    offered_by_agent = listings[0]['offers']['offeredBy'][0].get(info)
+    offered_by_agent = listings['offers']['offeredBy'][0].get(info, '')
     if offered_by_agent:
         return {
             "ListingAgentInfo": offered_by_agent
@@ -63,7 +61,7 @@ async def get_main_entity(request: Request):
     mainEntity = q.get('mainEntity')
     if mainEntity:
         return {
-            "property_info": listings[0][mainEntity]
+            "property_info": listings[mainEntity]
         }
     else:
         return {
@@ -72,9 +70,12 @@ async def get_main_entity(request: Request):
 
 # post method
 @app.post('/create_listing')
-async def create_rentals(body):
+async def create_rentals(body:RentalListing):
+    rentals_data = body.model_dump()
+    property_info.append(rentals_data)
     return {
-        "status": "Created Listing Successfully"
+        "status": "Listing Created Successfully...",
+        "Listings": property_info
     }
 
 # who we send data to the server 
